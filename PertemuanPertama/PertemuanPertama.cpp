@@ -22,5 +22,14 @@ int main()
 	cout << "masukan tinggi : ";
 	cin >> tinggi;
 	luas = alas * tinggi / 2;
-	cout << "luasnya = " << luas;
+	cout << "luasnya = " << luas\n;
+	
+	int Panjang, Lebar, Luas;
+	cout << "masukan Panjang = ";
+	cin >> Panjang;
+	cout << "masukan Lebar = ";
+	cin >> Lebar;
+	Luas = Panjang * Lebar;
+	cout << "luas persegi panjang adalah = " << Luas;
+
 }
